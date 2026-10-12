@@ -1,0 +1,20 @@
+{
+  "active_modes": ["NORMAL_SCORING"],
+  "risk": {
+    "physical_risk": 0, "medical_risk": 0, "financial_risk": 0,
+    "legal_risk": 0, "security_risk": 0, "irreversible_risk": 0,
+    "misinformation_risk": 0, "social_reputational_risk": 0,
+    "technical_system_risk": 0
+  },
+  "candidates": [
+    {
+      "id": "candidate_A", "hard_constraints_passed": true,
+      "criteria": {
+        "STATE_MATCH": 80, "INTENT_MATCH": 95, "TASK_MATCH": 90,
+        "LONG_TERM_GOAL_MATCH": 60, "ACTION_MATCH": 80,
+        "STYLE_MATCH": 70, "EPISTEMIC_FIT": 95
+      },
+      "risk_penalty": 0, "contradiction_penalty": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "engine": "ALEX_2501_BASELINE_V0.1",
+  "risk": {
+    "overall_risk": "0.00",
+    "risk_level": "LOW",
+    "critical_risk": false,
+    "safety_override": false,
+    "high_consequence": false
+  },
+  "selection": {
+    "selected_id": "candidate_A",
+    "status": "SELECTED",
+    "tied_ids": [],
+    "candidates": [
+      {
+        "id": "candidate_A",
+        "valid": true,
+        "base_score": "85.00",
+        "risk_penalty": "0",
+        "contradiction_penalty": "0",
+        "final_score": "85.00",
+        "rejection_reason": null
+      }
+    ]
+  },
+  "mode": "NORMAL_SCORING"
+}
